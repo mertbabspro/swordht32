@@ -12,7 +12,7 @@ const logFile = path.join(__dirname, 'chat_logs.txt');
 const bot = mineflayer.createBot({
   host: 'zurnacraft.net', // Sunucu adresini buraya yaz
   port: 25565, // Port numarası (varsayılan 25565)
-  username: 'swordht32',
+  username: 'swordht3',
   version: false, // false = otomatik sürüm algılama (önerilen)
   auth: 'offline', // Cracked sunucu için
   hideErrors: false, // Hataları göster
