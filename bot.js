@@ -73,7 +73,7 @@ bot.on('spawn', () => {
   // 3 saniye bekle ve login yap
   setTimeout(() => {
     try {
-      bot.chat('/login benbitben');
+      bot.chat('/register benbitben mertmertmert416@gmail.com');
       console.log('Login komutu gönderildi');
       logChat('Login komutu gönderildi: /login benbitben');
     } catch (error) {
