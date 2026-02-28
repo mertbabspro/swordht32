@@ -12,7 +12,7 @@ const logFile = path.join(__dirname, 'chat_logs.txt');
 const bot = mineflayer.createBot({
   host: 'zurnacraft.net', // Sunucu adresini buraya yaz
   port: 25565, // Port numarası (varsayılan 25565)
-  username: 'baseafk',
+  username: 'msncakmafan',
   version: false, // false = otomatik sürüm algılama (önerilen)
   auth: 'offline', // Cracked sunucu için
   hideErrors: false, // Hataları göster
@@ -73,7 +73,7 @@ bot.on('spawn', () => {
   // 3 saniye bekle ve login yap
   setTimeout(() => {
     try {
-      bot.chat('/login benbitben');
+      bot.chat('/register benbitben mertmertmert416@gmail.com');
       console.log('Login komutu gönderildi');
       logChat('Login komutu gönderildi: /login benbitben');
     } catch (error) {
